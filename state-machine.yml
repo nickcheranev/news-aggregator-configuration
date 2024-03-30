@@ -3,4 +3,4 @@ spring:
     url: jdbc:postgresql://host.docker.internal:5434/aggregator?currentSchema=state_machine
 
 kafka:
-  bootstrapServers: host.docker.internal:9092
+  bootstrapServers: localhost:9092, host.docker.internal:9092
