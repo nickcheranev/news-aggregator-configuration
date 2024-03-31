@@ -6,4 +6,4 @@ aggregator:
   storage:
     url: http://data-storage:8080
   dictionary:
-    url: http://hasura:8090/v1/graphql
+    url: http://hasura:8080/v1/graphql
