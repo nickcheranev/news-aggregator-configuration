@@ -1,3 +1,9 @@
 spring:
   datasource:
     url: jdbc:postgresql://host.docker.internal:5434/aggregator?currentSchema=aggregator_manager
+
+aggregator:
+  dictionary:
+    url: http://hasura:8080/v1/graphql
+  communicator:
+    url: http://communicator:8080/graphql

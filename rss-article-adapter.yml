@@ -1,0 +1,3 @@
+aggregator:
+  storage:
+    url: http://data-storage:8080
