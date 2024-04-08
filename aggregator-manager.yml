@@ -7,3 +7,6 @@ aggregator:
     url: http://hasura:8080/v1/graphql
   communicator:
     url: http://communicator:8080/graphql
+
+kafka:
+  bootstrapServers: kafka1:9092

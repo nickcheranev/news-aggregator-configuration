@@ -1,3 +1,6 @@
 aggregator:
   storage:
     url: http://data-storage:8080
+
+kafka:
+  bootstrapServers: kafka1:9092

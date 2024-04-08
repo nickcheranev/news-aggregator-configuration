@@ -7,3 +7,6 @@ aggregator:
     url: http://data-storage:8080
   dictionary:
     url: http://hasura:8080/v1/graphql
+
+kafka:
+  bootstrapServers: kafka1:9092
