@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://host.docker.internal:5434/aggregator?currentSchema=state_machine
+    url: jdbc:postgresql://host.docker.internal:5432/aggregator?currentSchema=state_machine
 
 kafka:
   bootstrapServers: kafka1:9092

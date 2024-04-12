@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://host.docker.internal:5434/aggregator?currentSchema=communicator
+    url: jdbc:postgresql://host.docker.internal:5432/aggregator?currentSchema=communicator
 
 aggregator:
   dictionary:
